@@ -13,7 +13,7 @@
 	JSTL / EL<br>
 	<c:forEach begin="1" end="10" var="i">
 		<c:choose>
-			<c:when test="${i eq 3 }">
+			<c:when test="i eq 3">
 				삼입니다.<br>
 			</c:when>			
 			<c:otherwise>
